@@ -5,7 +5,7 @@ from pythonTimer import Timer
 def main():
     t = Timer()
     t.start()
-    r = requests.get("https://api.github.com/users/naveenkrnl")
+    r = requests.get("https://api.github.com/users/Obuya-Nyang")
     t.stop()
     print(r.url)
 
